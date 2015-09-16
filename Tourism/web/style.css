@@ -1,0 +1,44 @@
+html,body{
+	height:100%;
+	width:100%
+}
+body{
+	margin-bottom:50px;
+}
+.pad-section{
+	padding: 50px 0;
+}
+.pad-section img{
+	width:100%;
+}
+.text-vcenter{
+	display: table-cell;
+	text-align:center;
+	vertical-align:middle;
+	color:#fff;
+}
+.text-center h1{
+	font-size:4em;
+	font-weight: 700;
+	margin:0;
+	padding:0;
+}
+#home{
+background:url(images/home.jpg) no-repeat center center fixed;
+display:table;
+height:100%;
+position:relative;
+width:100%;
+-moz-background-size:cover;
+background-size: cover;
+}
+#gallery{
+	background:url(images/images.jpg) no-repeat center center fixed;
+display:table;
+height:100%;
+position:relative;
+width:100%;
+-moz-background-size:cover;
+background-size: cover;
+}
+#about{}
